@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "public": true,
+  "routes": [
+    { "src": "/go/(?<name>[^/]+)", "dest": "/api/go/index.go?name=$name" }
+  ]
+}
+
