@@ -5,4 +5,3 @@
     { "src": "/go/(?<name>[^/]+)", "dest": "/api/go/index.go?name=$name" }
   ]
 }
-
