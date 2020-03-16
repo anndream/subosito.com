@@ -1,21 +1,25 @@
 {
   "name": "subosito.com",
+  "description": "~",
   "version": "1.0.0",
   "author": "Alif Rachmawadi <arch@subosito.com>",
   "license": "MIT",
-  "description": "~",
   "repository": "subosito/subosito.com",
   "engines": {
     "node": "12.x"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "fmt": "prettier --write **/*.{js,json}"
   },
   "dependencies": {
     "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+  "devDependencies": {
+    "prettier": "1.19.1"
   }
 }
